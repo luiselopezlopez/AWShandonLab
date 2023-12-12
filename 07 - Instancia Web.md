@@ -1,12 +1,12 @@
 **Importar el módulo http**
-var http = require('http');
+
 
 **Crear el servidor**
 Crear una carpeta /app
 Dentro crear el archivo server.js
 
 ```javascript
-
+var http = require('http');
 http.createServer(function (req, res) {
 
   // Escribir la cabecera de la respuesta
